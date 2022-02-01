@@ -1,0 +1,22 @@
+
+
+
+@media (max-width: 991px) {
+    #main-section-desktop {
+        display:none;
+    }
+}
+
+
+    #main-section-mobile {
+        display:none !important;
+    }
+    
+    
+
+    @media (max-width: 991px) {
+        #main-section-mobile {
+            display:block !important;
+        }
+    } 
+

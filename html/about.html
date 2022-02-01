@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/vendors.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/animation-icon.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="img/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="img/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="img/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="img/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="img/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="img/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="img/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="img/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="img/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Sobre Nós</title>
+  </head>
+
+  <body >
+    <!-- preloader start -->
+    <div class="preloader js-preloader">
+      <div class="preloader__bg"></div>
+
+      <div class="preloader__progress">
+        <div class="preloader__progress__inner"></div>
+        <img
+          src="img/general/loader.svg"
+          alt="preloader image"
+          class="preloader__img"
+        />
+      </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- cursor start -->
+    <div class="cursor js-cursor">
+      <div class="cursor__wrapper">
+        <div class="cursor__follower js-follower"></div>
+        <div class="cursor__label js-label"></div>
+        <div class="cursor__icon js-icon"></div>
+      </div>
+    </div>
+    <!-- cursor end -->
+
+    <!-- barba container start -->
+    <div class="barba-container" data-barba="container">
+      <!-- to-top-button start -->
+      <div data-cursor class="backButton js-backButton">
+        <span class="backButton__bg"></span>
+        <div class="backButton__icon__wrap">
+          <i
+            class="backButton__button js-top-button"
+            data-feather="arrow-up"
+          ></i>
+        </div>
+      </div>
+      <!-- to-top-button end -->
+
+      <main class="">
+        <!-- header start -->
+        <header class="header -light -sticky-light js-header">
+          <!-- header__bar start -->
+          <div class="header__bar">
+            <div class="header__logo js-header-logo">
+              <a data-barba href="index.html">
+                <img
+                  class="header__logo__light js-lazy"
+                  src="#"
+                  data-src="img/promoacao/logopromoacaodark"
+                  alt="Logo"
+                />
+              </a>
+              <a data-barba href="index.html">
+                <img
+                  class="header__logo__dark js-lazy"
+                  src="#"
+                  data-src="img/promoacao/logopromoacaodark.png"
+                  alt="Logo"
+                />
+              </a>
+            </div>
+
+            <div class="header__menu js-header-menu">
+              <button type="button" class="nav-button-open js-nav-open">
+                <i class="icon" data-feather="menu"></i>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </div>
+          <!-- header__bar end -->
+
+          <!-- nav start -->
+          <nav class="nav js-nav">
+            <div class="nav__inner js-nav-inner">
+              <div class="nav__bg js-nav-bg"></div>
+  
+              <div class="nav__container">
+                <div class="nav__header">
+                  <button type="button" class="nav-button-back js-nav-back">
+                    <i class="icon" data-feather="arrow-left-circle"></i>
+                  </button>
+  
+                  <button
+                    type="button"
+                    class="nav-btn-close js-nav-close pointer-events-none"
+                  >
+                    <i class="icon" data-feather="x"></i>
+                  </button>
+                </div>
+  
+                <div class="nav__content">
+                  <div class="nav__content__left">
+                    <div class="navList__wrap">
+                      <ul class="navList js-navList">
+                        <li>
+                          <a href="./index.html">Início </a>
+                        </li>
+                        <li>
+                          <a data-barba href="./about.html">Sobre Nós</a>
+                        </li>
+                        <li>
+                          <a data-barba href="./services.html">Serviços</a>
+                        </li>
+                        <li class="menu-item-has-children">
+                          <a>Portfólio</a>
+  
+                          <ul class="subnav-list">
+                            <li>
+                              <a data-barba href="eventos.html">Eventos Corporativos</a>
+                            </li>
+                            <li>
+                              <a data-barba href="portfolio.html">Navios Temáticos</a>
+                            </li>
+                            <li>
+                              <a data-barba href="turismo.html">Turismo</a>
+                            </li>                      
+                          </ul>
+                        </li>
+                        <li>
+                          <a data-barba href="./contact.html">Contato</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+  
+                  <div class="nav__content__right">
+                    <div class="nav__info">
+                      <div class="nav__info__item js-navInfo-item">
+                        <h5 class="text-sm tracking-none fw-500">Endereço</h5>
+  
+                        <div
+                          class="nav__info__content text-lg text-white mt-16"
+                        >
+                          <p>
+                            Alameda Santos, 2441 - 14° andar, Cerqueira
+                            César/SP, CEP: 01419-101
+                          </p>
+                        </div>
+                      </div>
+  
+                      <div class="nav__info__item js-navInfo-item">
+                        <h5 class="text-sm tracking-none fw-500">Redes Sociais</h5>
+
+                        <div
+                          class="nav__info__content text-lg text-white mt-16"
+                        >
+                          <a target="_blank" href="https://www.instagram.com/promoacaotrade/">Instagram</a>
+                          <a target="_blank" href="https://br.linkedin.com/in/promoa%C3%A7%C3%A3o-trade-783240204">Linkedin</a>
+                          <!-- <a href="#">Facebook</a>
+                          <a href="#">Twitter</a> -->
+                        </div>
+                      </div>
+  
+                      <div class="nav__info__item-header js-navInfo-item">
+                        <h5 class="text-sm tracking-none fw-500">
+                          Entre em Contato
+                        </h5>
+  
+                        <div
+                          class="nav__info__content text-lg text-white mt-16"
+                        >
+                          <a href="#">contato@promoacaotrade.com.br</a>
+                          <a href="#">(11) 4839-1500</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <!-- nav end -->
+        </header>
+        <!-- header end -->
+
+        <!-- page header start -->
+        <section
+          class="d-flex align-items-center md:d-block h-100vh md:h-unset"
+        >
+          <!-- container start -->
+          <div data-anim-wrap class="container">
+            <!-- row start -->
+            <div class="row align-items-center md:mt-120">
+              <div class="col-lg-5 col-md-8">
+                <div data-anim-child="slide-up" class="sectionHeading -md">
+                  <h1 class="sectionHeading__title">
+                    Nós construímos experiências inesquecíveis
+                  </h1>
+                </div>
+
+                <div data-anim-child="slide-up delay-1">
+                  <p class="text-lg text-black fw-500 mt-32">
+                    Os melhores navios temáticos, eventos corporativos e experiências turísticas estão aqui. Não basta ser grande, tem que ser único!
+                  </p>
+                </div>
+
+                <div data-anim-child="slide-up delay-2">
+                  <!-- <p class="text-lg leading-5xl mt-24">
+                    Void winged dry made shall heaven deep. You're it whales
+                    herb yielding rule bring Very had above seed every. Fish
+                    you're so midst yielding two open brought blessed. Fourth
+                    void was deep sixth have meat. Fourth under.
+                  </p> -->
+                </div>
+              </div>
+
+              <div class="col-lg-6 offset-lg-1 md:mt-56">
+                <div data-anim-child="img-right cover-white delay-6">
+                  <div data-parallax="0.7" class="h-100vh md:h-70vh">
+                    <div
+                      data-parallax-target
+                      class="bg-image js-lazy"
+                      data-bg="img/promoacao/partyhard.png"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+          <!-- container end -->
+        </section>
+
+        <!-- section start -->
+        <section style="background-color: #131419;" class="layout-pt-xl layout-pb-xl">
+          <!-- container start -->
+          <div  class="container">
+            <!-- row start -->
+            <div class="row">
+              <div class="col-xl-5 col-lg-8 col-md-10">
+                <div class="sectionHeading -lg">
+                  <p style="color:white" class="sectionHeading__subtitle">Vantagens</p>
+                  <h2 style="color: white;" class="sectionHeading__title">
+                    Experiência Única & Completa
+                  </h2>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+
+            <!-- row start -->
+            <div class="row x-gap-60 y-gap-48 layout-pt-md">
+              <div class="col-lg-4 col-md-6">
+                <div class="">
+                  <h4 style="color: #FF002E;" class="text-xl fw-600">Exclusividade</h4>
+                  <p style="color: white;" class="mt-16">
+                    Trabalhamos com os melhores e mais exclusivos artistas, garantindo momentos inesquecíveis e encontros únicos.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="">
+                  <h4 style="color: #FF002E;" class="text-xl fw-600">Facilidade</h4>
+                  <p style="color: white;" class="mt-16">
+                    Quando falamos em soluções completas não estamos de brincadeira! Emitimos aéreos e facilitamos ainda mais todo o processo.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="">
+                  <h4 style="color: #FF002E;" class="text-xl fw-600">Responsabilidade</h4>
+                  <p style="color: white;" class="mt-16">
+                    Somos 100% responsáveis por todo o seu evento, em todas as etapas do inicio ao fim, proporcionando excelência em cada detalhe.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+          <!-- container end -->
+        </section>
+
+        <!-- section start -->
+        <section class="layout-pt-md layout-pb-md">
+          <!-- container start -->
+          <div class="container-fluid px-0">
+            <!-- row start -->
+            <div data-anim-wrap class="row no-gutters align-items-center">
+              <div class="col-lg-6 z-1">
+                <div data-anim-child="img-right cover-white delay-1">
+                  <div class="ratio ratio-1:1" data-parallax="0.7">
+                    <div
+                      data-parallax-target
+                      class="bg-image js-lazy"
+                      data-bg="img/promoacao/partyculture.png"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-4 z-2 ml-80 md:ml-0 md:mt-48">
+                <div class="sectionHeading -xl md:container pt-16">
+                  <div data-anim-child="slide-up delay-8">
+                    <p class="sectionHeading__subtitle">Cultura</p>
+                  </div>
+                  <div
+                    data-anim-child="slide-up delay-9"
+                    class=" lg:ml-minus-lg mr-minus-col-2 md:ml-0 md:mr-0"
+                  >
+                    <h2 class="sectionHeading__title mt-48 md:mt-24">
+                      Experiências<br />
+                      Incríveis
+                    </h2>
+                  </div>
+                  <div data-anim-child="slide-up delay-10">
+                    <p class="mt-56 lg:mt-40 md:mt-20">
+                      Em 20 anos de mercado, a missão sempre foi uma só: proporcionar experiências incríveis e inesquecíveis aos nossos clientes, por meio de eventos, festas e turismo.
+                    </p>
+                  </div>
+                  <!-- <div data-anim-child="slide-up delay-11">
+                    <a
+                      data-barba
+                      href="about-1.html"
+                      class="button -md -outline-black text-black mt-56 lg:mt-48 md:mt-32"
+                    >
+                      About Us
+                    </a>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+          <!-- container end -->
+        </section>
+
+        <!-- section start -->
+        <!-- <section class="layout-pt-lg layout-pb-lg"> -->
+          <!-- container start -->
+          <!-- <div class="container"> -->
+            <!-- row start -->
+            <!-- <div class="row justify-content-center text-center">
+              <div class="col-lg-7">
+                <div class="sectionHeading -md">
+                  <p class="sectionHeading__subtitle">Profissionais</p>
+                  <h2 class="sectionHeading__title">Nosso Time</h2>
+                  <p class="text-lg sm:text-base mt-24">
+                    Conheça a nossa equipe!
+                  </p>
+                </div>
+              </div>
+            </div> -->
+            <!-- row end -->
+
+            <!-- row start -->
+            <!-- <div class="row x-gap-48 y-gap-48 layout-pt-md">
+              <div class="col-lg-4 col-sm-6">
+                <div data-anim="slide-up" class="teamCard">
+                  <div class="teamCard__img">
+                    <div>
+                      <div
+                        class="bg-image ratio ratio-2:3 js-lazy"
+                        data-bg="img/team/1.jpg"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="teamCard__content text-center mt-24">
+                    <h4 class="teamCard__title text-2xl fw-500">
+                      Kieran Bowler
+                    </h4>
+
+                    <p
+                      class="teamCard__text text-xs uppercase tracking-md fw-500 mt-8"
+                    >
+                      graphic designer
+                    </p>
+
+                    <div class="teamCard__social justify-content-center mt-12">
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-facebook-f"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-linkedin"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-6">
+                <div data-anim="slide-up" class="teamCard">
+                  <div class="teamCard__img">
+                    <div>
+                      <div
+                        class="bg-image ratio ratio-2:3 js-lazy"
+                        data-bg="img/team/2.jpg"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="teamCard__content text-center mt-24">
+                    <h4 class="teamCard__title text-2xl fw-500">
+                      Nelly Preston
+                    </h4>
+
+                    <p
+                      class="teamCard__text text-xs uppercase tracking-md fw-500 mt-8"
+                    >
+                      senior designer
+                    </p>
+
+                    <div class="teamCard__social justify-content-center mt-12">
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-facebook-f"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-linkedin"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-6">
+                <div data-anim="slide-up" class="teamCard">
+                  <div class="teamCard__img">
+                    <div>
+                      <div
+                        class="bg-image ratio ratio-2:3 js-lazy"
+                        data-bg="img/team/3.jpg"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="teamCard__content text-center mt-24">
+                    <h4 class="teamCard__title text-2xl fw-500">Teodor Mora</h4>
+
+                    <p
+                      class="teamCard__text text-xs uppercase tracking-md fw-500 mt-8"
+                    >
+                      lead developer
+                    </p>
+
+                    <div class="teamCard__social justify-content-center mt-12">
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-facebook-f"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-linkedin"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-6">
+                <div data-anim="slide-up" class="teamCard">
+                  <div class="teamCard__img">
+                    <div>
+                      <div
+                        class="bg-image ratio ratio-2:3 js-lazy"
+                        data-bg="img/team/4.jpg"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="teamCard__content text-center mt-24">
+                    <h4 class="teamCard__title text-2xl fw-500">Sofia Neale</h4>
+
+                    <p
+                      class="teamCard__text text-xs uppercase tracking-md fw-500 mt-8"
+                    >
+                      senior designer
+                    </p>
+
+                    <div class="teamCard__social justify-content-center mt-12">
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-facebook-f"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-linkedin"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-6">
+                <div data-anim="slide-up" class="teamCard">
+                  <div class="teamCard__img">
+                    <div>
+                      <div
+                        class="bg-image ratio ratio-2:3 js-lazy"
+                        data-bg="img/team/5.jpg"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="teamCard__content text-center mt-24">
+                    <h4 class="teamCard__title text-2xl fw-500">
+                      Callen Morgan
+                    </h4>
+
+                    <p
+                      class="teamCard__text text-xs uppercase tracking-md fw-500 mt-8"
+                    >
+                      lead developer
+                    </p>
+
+                    <div class="teamCard__social justify-content-center mt-12">
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-facebook-f"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-linkedin"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-6">
+                <div data-anim="slide-up" class="teamCard">
+                  <div class="teamCard__img">
+                    <div>
+                      <div
+                        class="bg-image ratio ratio-2:3 js-lazy"
+                        data-bg="img/team/6.jpg"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div class="teamCard__content text-center mt-24">
+                    <h4 class="teamCard__title text-2xl fw-500">
+                      Ida Robinson
+                    </h4>
+
+                    <p
+                      class="teamCard__text text-xs uppercase tracking-md fw-500 mt-8"
+                    >
+                      graphic designer
+                    </p>
+
+                    <div class="teamCard__social justify-content-center mt-12">
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-facebook-f"></i>
+                        </a>
+                      </div>
+                      <div class="teamCard__social__item">
+                        <a class="text-black" href="#">
+                          <i class="fa fa-linkedin"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- row end -->
+          <!-- </div> -->
+          <!-- container end -->
+        <!-- </section> -->
+
+        <!-- section start -->
+        <section data-parallax="0.7" class="layout-pt-lg layout-pb-lg">
+          <div
+            data-parallax-target
+            class="overlay-black-md bg-image-serviços js-lazy"
+            data-bg="img/promoacao/partyaboutus.png"
+          ></div>
+
+          <!-- container start -->
+          <div class="container z-5">
+            <!-- row start -->
+            <div class="row justify-content-center text-center">
+              <div class="col-12">
+                <p class="text-sm uppercase tracking-lg text-white mb-20">
+                  Contato
+                </p>
+
+                <h2
+                  class="text-5xl sm:text-5xl xs:text-4xl leading-sm fw-700 text-white"
+                >
+                  Quer fazer um evento ou participar de um dos nossos?
+                </h2>
+
+                <p class="text-xl md:text-lg text-white mt-16">
+                  Fale com a gente!
+                </p>
+
+                <a href="cont" class="button -md -white text-black mt-32">
+                  Entre em contato
+                </a>
+              </div>
+            </div>
+            <!-- row end -->
+          </div>
+          <!-- container end -->
+        </section>
+        <!-- section end -->
+        <!-- section end -->
+        <!-- section end -->
+        <!-- section end -->
+        <!-- page header end -->
+
+        <!-- footer start -->
+        <footer class="footer -type-1 bg-dark-1">
+          <!-- container start -->
+          <div class="container">
+            <div class="footer__top">
+              <!-- row start -->
+              <div class="row y-gap-48 justify-content-between">
+                <div class="col-lg-auto col-sm-12">
+                  <a href="index.html" class="footer__logo text-white">
+                    <img src="img/promoacao/logopromoacao.png" alt="" />
+                  </a>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                  <h4 class="text-xl fw-500 text-white">Contato</h4>
+
+                  <div
+                    class="footer__content text-base text-light mt-16 sm:mt-12"
+                  >
+                    <p>
+                      Alameda Santos, 2441 - 14º Andar - Cerqueira César, São
+                      Paulo
+                    </p>
+                    <p class="mt-8">contato@promoacaotrade.com.br</p>
+                    <p class="mt-8">(11) 4839-1500</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-auto col-sm-4">
+                  <h4 class="text-xl fw-500 text-white">Páginas</h4>
+
+                  <div
+                    class="footer__content text-base text-light mt-16 sm:mt-12"
+                  >
+                    <div>
+                      <a data-barba href="index.html" class="button -underline"
+                        >Início</a
+                      >
+                    </div>
+                    <div>
+                      <a
+                        data-barba
+                        href="about.html"
+                        class="button -underline mt-4"
+                        >Sobre nós</a
+                      >
+                    </div>
+                    <div>
+                      <a data-barba href="services.html" class="button -underline mt-4"
+                        >Serviços</a
+                      >
+                    </div>
+                    <div>
+                      <a
+                        data-barba
+                        href="portfolio.html"
+                        class="button -underline mt-4"
+                        >Portfólio</a
+                      >
+                    </div>
+                    <div>
+                      <a
+                        data-barba
+                        href="contact.html"
+                        class="button -underline mt-4"
+                        >Contato</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-auto col-auto">
+                  <h4 class="text-xl fw-500 text-white">Redes Sociais</h4>
+
+                  <div class="social -bordered mt-16 sm:mt-12">
+                    <a
+                      class="social__item text-white border-light"
+                      target="_blank"
+                      href="https://www.instagram.com/promoacaotrade/"
+                    >
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                    <a
+                      class="social__item text-white border-light"
+                      target="_blank"
+                      href="https://br.linkedin.com/in/promoa%C3%A7%C3%A3o-trade-783240204"
+                    >
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                    <!-- <a class="social__item text-white border-light" href="#">
+                    <i class="fa fa-youtube-play"></i>
+                  </a>
+                  <a class="social__item text-white border-light" href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a> -->
+                  </div>
+                </div>
+              </div>
+              <!-- row end -->
+            </div>
+
+            <div class="footer__bottom -light">
+              <!-- row start -->
+              <div class="row">
+                <div class="col">
+                  <div class="footer__copyright">
+                    <p class="text-light">Copyright @ 2022, Promoação Trade</p>
+                  </div>
+                </div>
+                <div class="icons-animation-footer">
+                  <p class="animation-footer" style="margin-right: 15px">
+                    Feito com muito
+                  </p>
+                  <div class="icones-center">
+                    <div class="icone-grid">
+                      <i class="fas fa-heart"></i>
+                    </div>
+
+                    <div class="icone-grid">
+                      <i class="fas fa-mug-hot"></i>
+                    </div>
+
+                    <div class="icone-grid">
+                      <i class="fas fa-music"></i>
+                    </div>
+
+                    <div class="icone-grid">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </div>
+
+                  <p class="animation-footer" style="margin-left: 15px">
+                    por
+                    <a
+                      class="footer-anchor"
+                      target="_blank"
+                      href="https://ensight.com.br/"
+                      style="font-weight: bold"
+                      >Ensight</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <!-- row end -->
+            </div>
+          </div>
+          <!-- container end -->
+        </footer>
+        <!-- footer end -->
+      </main>
+    </div>
+    <!-- barba container end -->
+
+    <!-- JavaScript -->
+    <script src="js/vendors.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/d30f8ddc33.js" crossorigin="anonymous"></script>
+  </body>
+</html>

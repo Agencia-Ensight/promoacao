@@ -1,0 +1,102 @@
+
+
+
+.icone-grid { 
+   
+    animation-name: A;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 10px
+   
+}
+
+.icons-animation-footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.animation-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+.icones-center { 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 30px;
+    width: 25px;
+    
+}
+
+.fa, .fab, .fad, .fal, .far, .fas { 
+    font-size: 25px;
+    background:-moz-linear-gradient(51.27deg, #ff0015 0%, #ff6161 100%);
+    background: -webkit-linear-gradient(51.27deg, #ff0015 0%, #ff6161 100%);
+    background: linear-gradient(51.27deg, #ff0015 0%, #ff6161 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+
+.iconz { 
+    font-size: 25px;
+    background:-moz-linear-gradient(51.27deg, #ffffff 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(51.27deg, #ffffff 0%, #ffffff 100%);
+    background: linear-gradient(51.27deg, #ffffff 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+
+span { 
+    background:-moz-linear-gradient(51.27deg,  #ff0015 0%, #ff6161 100%);
+    background: -webkit-linear-gradient(51.27deg, #ff0015 0%, #ff6161 100%);
+    background: linear-gradient(51.27deg, #ff0015 0%, #ff6161 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+   cursor: pointer;
+}
+
+.footer-anchor{
+
+    background:-moz-linear-gradient(51.27deg,  #ff0015 0%, #ff6161 100%);
+    background: -webkit-linear-gradient(51.27deg, #ff0015 0%, #ff6161 100%);
+    background: linear-gradient(51.27deg, #ff0015 0%, #ff6161 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+   cursor: pointer;
+
+}
+
+@keyframes A {
+
+    0% {
+     transform: translateY(00px);
+    }
+
+    33% { 
+
+        transform: translateY(-55px);
+    }
+
+
+    66% { 
+        transform: translateY(-105px);
+    }
+
+
+  
+    100% {
+        transform: translateY(-155px);
+    }
+  }
