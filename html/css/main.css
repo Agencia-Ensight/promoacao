@@ -12625,3 +12625,64 @@ html.full-page-slider body {
 
 
 }
+
+@media(min-width: 992px){
+  .card-slider{
+    flex: 0 0 22%;
+  }
+}
+
+@media(max-width: 992px){
+  .card-slider{
+    flex: 0 0 80%;
+  }
+}
+
+.cards-slider{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-y: scroll;
+  flex-direction: row;
+}
+
+.modal-container{
+  position: relative;
+  opacity: 0;
+}
+
+.modal-container.show{
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal{
+  position: fixed;
+  bottom: 40px;
+  right: 110px;
+  z-index: 9999;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 450px;
+  max-width: 100%;
+  padding: 2rem 4rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.modal-header{
+  display: flex;
+  justify-content: end;
+}
+
+#close{
+  font-size: 20px;
+}
+
+.title-modal{
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.description-modal{
+  margin-bottom: 1rem;
+}

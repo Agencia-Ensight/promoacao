@@ -3,7 +3,7 @@
 
 @media (max-width: 991px) {
     #main-section-desktop {
-        display:none;
+        display:block;
     }
 }
 
@@ -16,7 +16,7 @@
 
     @media (max-width: 991px) {
         #main-section-mobile {
-            display:block !important;
+            display:none !important;
         }
     } 
 
