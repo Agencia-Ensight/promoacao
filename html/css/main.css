@@ -12711,3 +12711,20 @@ html.full-page-slider body {
 .description-modal{
   margin-bottom: 1rem;
 }
+
+
+.textopadraoabaixo{ 
+  margin-top: 20px;
+  color: white;
+
+
+}
+
+
+.postzaopadrao{ 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+
+}
