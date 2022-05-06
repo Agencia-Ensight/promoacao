@@ -1664,7 +1664,7 @@ h6 {
   position: absolute;
   top: 24.875rem;
   right: -8.5rem;
-  width: 50.625rem;
+  3625rem;
   height: 50.625rem;
   border-radius: 100%;
   background-color: #ffffff;
@@ -1955,6 +1955,7 @@ h6 {
   margin-top: 3.75rem;
   font-size: 1rem;
 }
+
 
 .blogPost.tags .tags__item {
   display: inline-block;
@@ -2444,8 +2445,7 @@ h6 {
 .header .header__logo__dark {
   position: relative;
   opacity: 1;
-  width: 50.13px;
-  height: 36.68px;
+  
 }
 
 .header .header__logo a {
@@ -2486,15 +2486,13 @@ h6 {
 .header.-dark .header__logo__light {
   position: relative;
   opacity: 1;
-  width: 50.13px;
-  height: 36.98px;
+  
 }
 
 .header.-dark .header__logo__dark {
   position: absolute;
   opacity: 0;
-  width: 50.13px;
-  height: 36.68px;
+  
 }
 
 .header.-dark .header__logo a {
@@ -2535,16 +2533,14 @@ h6 {
 .header.is-sticky.-sticky-light .header__logo__light {
   position: absolute;
   opacity: 0;
-  width: 50.13px;
-  height: 36.98px;
+  
 }
 
 .header.-sticky-initial.-sticky-light .header__logo__dark,
 .header.is-sticky.-sticky-light .header__logo__dark {
   position: relative;
   opacity: 1;
-  width: 50.13px;
-  height: 36.68px;
+  
 }
 
 .header.-sticky-initial.-sticky-light .header__logo a,
@@ -2585,16 +2581,14 @@ h6 {
 .header.is-sticky.-sticky-dark .header__logo__light {
   position: relative;
   opacity: 1;
-  width: 50.13px;
-  height: 36.98px;
+  
 }
 
 .header.-sticky-initial.-sticky-dark .header__logo__dark,
 .header.is-sticky.-sticky-dark .header__logo__dark {
   position: absolute;
   opacity: 0;
-  width: 50.13px;
-  height: 36.68px;
+  
 }
 
 .header.-sticky-initial.-sticky-dark .header__logo a,
