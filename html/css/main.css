@@ -12731,3 +12731,32 @@ html.full-page-slider body {
   flex-flow: row wrap;
   justify-content: center;
 }
+
+
+/* slide logo */
+
+.slides-container {
+  position: relative;
+  overflow: hidden;  
+  display: flex;
+  flex: 1;
+}
+
+.slide {
+  position: absolute;
+  font-size: 90px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100px;
+}
+
+.slides-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;  
+  overflow: hidden;
+}
