@@ -12735,7 +12735,7 @@ html.full-page-slider body {
 
 /* slide logo */
 
-.slides-container {
+/* .slides-container {
   position: relative;
   overflow: hidden;  
   display: flex;
@@ -12759,4 +12759,101 @@ html.full-page-slider body {
   height: 100%;
   width: 100%;  
   overflow: hidden;
+} */
+
+/* logo slider  */
+
+.container-logo{
+  width: 200px;
+
+
+
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
 }
+
+.wrapper-logo{
+
+    /* width: 300px; */
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+
+
+}
+
+.wrapper-logo img{
+  width: 100%;
+
+
+
+}
+
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
+
+.containers-logo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+.title-mobile-only-header{
+  display: none;
+}
+
+@media (max-width: 600px){
+
+  .containers-logo{
+    margin-top: 20px;
+
+  }
+
+  .mobile-text-header{
+    display: none !important;
+  }
+
+.button-know-mobile{
+  display: none;
+}
+
+.title-slider-mobile{
+  display: none;
+}
+
+.title-mobile-only-header{
+  display: block ;
+}
+  
+
+}
+
