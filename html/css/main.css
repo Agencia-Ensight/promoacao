@@ -12831,6 +12831,10 @@ html.full-page-slider body {
   display: none;
 }
 
+.mobile-slider-home{
+  display: none;
+}
+
 @media (max-width: 600px){
 
   .containers-logo{
@@ -12854,6 +12858,16 @@ html.full-page-slider body {
   display: block ;
 }
   
+.desktop-slider {
+  display: none !important;
+}
+
+.mobile-slider-home{
+  display: block;
+}
 
 }
+
+
+
 
