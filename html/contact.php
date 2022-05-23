@@ -1,7 +1,7 @@
 <?php
 
   if ($_POST) {
-    $toEmail = 'masterov.mixail@gmail.com';
+    $toEmail = 'gustavomoreschiantonio@gmail.com';
     $values = [];
     
     if ($_POST['name']) {
