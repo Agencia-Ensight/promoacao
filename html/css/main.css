@@ -12871,6 +12871,11 @@ html.full-page-slider body {
 
 .logo-mobile-header{
   display: block !important;
+  width: 150px;
+}
+
+.logo-div-header{
+  display: none !important;
 }
 
 }
