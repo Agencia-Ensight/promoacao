@@ -12816,6 +12816,38 @@ html.full-page-slider body {
   }
 }
 
+
+.anchorpadraodosnosso{ 
+  margin: 0;
+  padding: 0;
+
+}
+
+.imagempadraodosnosso{ 
+  width: 40px;
+  height: 40px;
+  gap: 20px;
+
+
+
+}
+.imagempadraodosnosso img{ 
+  width: 80px;
+  height: 80px;
+  gap: 10px;
+  
+
+}
+
+.sectionpadraodaslogos{ 
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+
+
+}
+
 .containers-logo{
   display: flex;
   align-items: center;
