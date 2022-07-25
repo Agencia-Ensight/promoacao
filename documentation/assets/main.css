@@ -4085,7 +4085,7 @@ a:hover {
   display: flex;
   align-items: center;
   width: 100%;
-  color: #222222;
+  color: #000;
   font-size: 18px;
   font-weight: 600;
   line-height: 120%;
@@ -4355,4 +4355,13 @@ p code {
 
 .header__right > *:first-child {
   margin-right: 16px;
+}
+
+.cursor.cursor-link {
+  -webkit-transform: scale(1.2) translate(-50%, -50%);
+  -moz-transform: scale(1.2) translate(-50%, -50%);
+  -ms-transform: scale(1.2) translate(-50%, -50%);
+  -o-transform: scale(1.2) translate(-50%, -50%);
+  transform: scale(1.2) translate(-50%, -50%);
+
 }
