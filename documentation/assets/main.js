@@ -3337,3 +3337,35 @@ function sidebarDropdownInit() {
 }
 
 feather.replace();
+
+
+function mouseCirMove( $off ) {
+  const $elemnet = ".cursor";
+  if ( effectScroller().isMobiles() ) {
+      // $elemnet.css('display' , 'none');
+      return;
+  }
+
+
+  if ( $off !== undefined && $off === true ) {
+      cursorEffect();
+      return;
+  }
+
+  if ( $( "body" ).hasClass( "dsn-large-mobile" ) )
+      return;
+
+  dsnGrid.mouseMove( $elemnet );
+
+  cursorEffect();
+
+  function cursorEffect() {
+
+      dsnGrid.elementHover( $elemnet, "a.link-pop , a > img", "cursor-view" );
+      dsnGrid.elementHover( $elemnet, ".close-wind", "cursor-close" );
+      dsnGrid.elementHover( $elemnet, "a:not(> img) , .dsn-button-sidebar,  button", "cursor-link" );
+  }
+
+
+}
+

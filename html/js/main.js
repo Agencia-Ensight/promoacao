@@ -1803,10 +1803,13 @@
       spaceBetween: 0,
       speed: 1000,
       parallax: true,
+      autoplay: {
+        delay: 4000,
+      },
       grabCursor: true,
       allowTouchMove: true,
       touchMoveStopPropagation: true,
-
+      loop: true,
       lazy: {
         loadPrevNext: true,
       },
@@ -1822,6 +1825,7 @@
         nextEl: nav.querySelector(".js-next"),
       },
     });
+
   }
 
   function mainSlider2Init() {
@@ -1903,7 +1907,7 @@
       if (slider.getAttribute("data-speed"))
         sliderSpeed = slider.getAttribute("data-speed");
 
-      let sliderAutoplay = false;
+      let sliderAutoplay = true;
       if (slider.getAttribute("data-autoplay-delay")) {
         sliderAutoplay = {
           delay: slider.getAttribute("data-autoplay-delay"),
@@ -1948,9 +1952,9 @@
 
       sliderInstance.autoplay.stop();
 
-      // setTimeout(() => {
-      //   sliderInstance.autoplay.start();
-      // }, sliderAutoplayStartDelay);
+      setTimeout(() => {
+        sliderInstance.autoplay.start();
+      }, sliderAutoplayStartDelay);
 
       sliderInstance.on("transitionStart", function () {
         const currentContent = contents[current];
@@ -2071,7 +2075,7 @@
       const el = sectionSlider[i];
 
       let gap = 0;
-      let loop = false;
+      let loop = true;
       let centered = false;
       let pagination = false;
 
@@ -2109,7 +2113,9 @@
         spaceBetween: parseInt(gap),
         centeredSlides: centered,
         parallax: true,
-
+        autoplay: {
+          delay: 4000,
+        },
         loop: loop,
 
         lazy: {
