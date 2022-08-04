@@ -12656,12 +12656,12 @@ html.full-page-slider body {
 
 .modal-container {
   position: relative;
-  opacity: 0;
+  display: none;
 }
 
 .modal-container.show {
   pointer-events: auto;
-  opacity: 1;
+  display: block;
 }
 
 .modal {
